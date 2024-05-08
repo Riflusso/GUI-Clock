@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="guiclock"
-version="4.4"
+version="4.5"
 displayName="GUI Clock"
 displayURL="https://serilum.com/mod/gui-clock"
 authors="Rick South"
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate. Appre
 [[dependencies.guiclock]]
     modId="collective"
     mandatory=true
-    versionRange="[7.55,)"
+    versionRange="[7.56,)"
     ordering="NONE"
     side="BOTH"
 

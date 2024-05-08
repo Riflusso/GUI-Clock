@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "guiclock",
-  "version": "4.4",
+  "version": "4.5",
 
   "name": "GUI Clock",
   "description": "Shows the time and days played in the GUI on the screen with a clock in the inventory.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=21",
-    "collective": ">=7.55"
+    "collective": ">=7.56"
   },
 
   "custom": {
