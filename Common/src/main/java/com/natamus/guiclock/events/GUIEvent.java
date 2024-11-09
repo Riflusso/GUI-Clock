@@ -23,7 +23,9 @@ public class GUIEvent {
 	private static String daystring = "";
 	
 	public static void renderOverlay(GuiGraphics guiGraphics, DeltaTracker deltaTracker) {
-		if (mc.gui.getDebugOverlay().showDebugScreen()) {
+		boolean hideGUI = ConfigHandler.hideWithGUI;
+
+		if (mc.gui.getDebugOverlay().showDebugScreen() || mc.level == null || (mc.options.hideGui && hideGUI)) {
 			return;
 		}
 

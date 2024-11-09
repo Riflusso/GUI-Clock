@@ -15,6 +15,7 @@ public class ConfigHandler extends DuskConfig {
 	@Entry public static boolean lowerClockWhenPlayerHasEffects = true;
 	@Entry public static boolean _24hourformat = true;
 	@Entry public static boolean showOnlyMinecraftClockIcon = false;
+	@Entry public static boolean hideWithGUI = true;
 	@Entry public static boolean showBothTimes = false;
 	@Entry public static boolean showRealTime = false;
 	@Entry public static boolean showRealTimeSeconds = false;
